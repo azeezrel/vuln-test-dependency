@@ -1,0 +1,14 @@
+{
+  "name": "vuln-test-dependency",
+  "version": "1.0.0",
+  "description": "Repository with intentionally vulnerable dependencies for testing dependency scanners",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "lodash": "4.17.15",        
+    "express": "4.16.0",
+    "minimist": "1.2.0"
+  }
+}
